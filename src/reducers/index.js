@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
-import BooksReducer from './reducer_test';
+import fourSquareReducer from './reducer_fourSquareActivities';
+console.log(fourSquareReducer);
 
 const rootReducer = combineReducers({
-  books: BooksReducer
+  fourSquarePopular: fourSquareReducer
 });
 
 export default rootReducer;
